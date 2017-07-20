@@ -19,6 +19,7 @@ int main()
 		j++;jj++;
 		if (x[j] == x[jj]) next[j] = next[jj]; else next[j] = jj;
 	}
+
 	int i;
 	i = 1; // s
 	j = 1; // x
